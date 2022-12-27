@@ -1,0 +1,80 @@
+
+/* header */
+.header{
+    background-color: burlywood;
+    padding: 0% 5% 1% 0%;
+}
+    .header .header-top{
+        background-color:burlywood;
+        height: 10px;
+        width: 100%;
+    }
+    .header h1{
+        text-align:center;
+        padding: 14px 10px 50px 60px;
+        font-family:monospace;
+        
+    }
+/* section     */
+.section{
+    text-align: center;
+    background-color:aliceblue;
+    margin:0px 0px 0px 30%;
+    padding: 8%;
+    width: 270px;
+    display: flex;
+}
+.section .titulo{
+    color:darkorange;
+}
+    .section .circular--square{
+        position: relative;
+        top: -20px; 
+        left: 100px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: -10%;
+        border:2px solid #fff;
+        display: block;
+
+    }
+
+    .section .list-desordenada li {
+        list-style-type: none;
+        display:inline;
+        padding-left:3px;
+        padding-right:3px;
+        
+    }
+    .section .list-desordenada .pequeñaN{
+        width: 20px;
+        height: 20px;
+    }
+    .section .list-desordenada .correo{
+        width: 20px;
+        height: 20px;
+    }
+    .section .list-desordenada .fecha{
+        width: 20px;
+        height: 20px;
+    }
+    .section .list-desordenada .direccion{
+        width: 20px;
+        height: 20px;
+    }
+    .section .list-desordenada .telefono{
+        width: 20px;
+        height: 20px;
+    }
+/* footer */
+.footer{
+    background-color:black;
+    padding: 20px;
+    height: 100%;
+}
+    .footer img{
+        padding-left: 46%;
+        max-width: 100px;
+        
+    }

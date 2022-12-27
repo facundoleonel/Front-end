@@ -1,0 +1,39 @@
+@media screen and (max-width: 40em) {
+    /* section */
+
+    .section{
+        text-align: center;
+        background-color:aliceblue;
+        margin:0px 0px 0px 20%;
+        padding: 0%;
+        width: 200px;
+    }
+    .section .circular--square{
+        position: relative;
+        top: -10px; 
+        left: 20px;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        margin: 20%;
+        border:2px solid #fff;
+        display: block;
+
+    }
+    .section .list-desordenada li {
+        list-style-type: none;
+        display:inline;
+        padding-left:3px;
+        padding-right:3px;
+        
+    }
+    /* footer */
+    .footer{
+        padding: 30px;
+    }
+        .footer img{
+            padding-left: 35%;
+            
+        }
+}    
+
